@@ -1,0 +1,41 @@
+<div class="main">
+  <div class="logo">
+    <a routerLink="/home"><img src="assets/image/Logo.png" alt="No images"></a>
+  </div>
+  <div class="menu">
+    <ul class="big_menu">
+      <li>
+        <a routerLink="/home" routerLinkActive="active">Գլխավոր</a>
+      </li>
+      <li>
+        <a routerLink="/about-us" routerLinkActive="active">Մեր մասին</a>
+      </li>
+      <li>
+        <a routerLink="/courses" routerLinkActive="active"> Դասընթացներ</a>
+      </li>
+      <li>
+        <a href="#contact">Կապ</a>
+      </li>
+    </ul>
+    <button type="button" class="signUp" routerLink="/sign-in">Գրանցվել</button>
+  </div>
+  <img src="assets/image/menu.png" alt="No images" class="dropdown_menu" (mouseleave)="closeDropDown()" (mouseenter)="openDropDown()">
+</div>
+
+<div class="dropdown" (mouseenter)="openDropDown()" (mouseleave)="closeDropDown()">
+  <ul>
+    <li>
+      <a routerLink="/home" (click)="closeDropDown()" routerLinkActive="active">Գլխավոր</a>
+    </li>
+    <li>
+      <a routerLink="/about-us" (click)="closeDropDown()" routerLinkActive="active">Մեր մասին</a>
+    </li>
+    <li>
+      <a routerLink="/courses" (click)="closeDropDown()" routerLinkActive="active"> Դասընթացներ</a>
+    </li>
+    <li>
+      <a href="#contact" (click)="closeDropDown()">Կապ</a>
+    </li>
+  </ul>
+  <button type="button" class="drop_sign-up" routerLink="/sign-in" (click)="closeDropDown()">Գրանցվել</button>
+</div>

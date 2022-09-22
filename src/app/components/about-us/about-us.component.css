@@ -1,0 +1,568 @@
+app-header {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.container_ {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.about-us-header .container_ .text h1 {
+  margin: 0 0 0 0;
+  padding: 140px 0 127px 0;
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #06295E;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-us-header {
+  padding-top: 60px;
+  background-image: url("../../../assets/image/back3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-us .text p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #000000;
+  width: 646px;
+  overflow: auto;
+}
+
+.about-us .img_block img:nth-child(2) {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+h2 {
+  margin: 100px 0 50px;
+  padding: 0;
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.about-us .container_ {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.me-are-top-row .coll {
+  background: #FFFFFF;
+  border: 1px solid #06295E;
+  border-radius: 30px 0px;
+  width: 400px;
+  padding: 20px 20px 0;
+}
+
+.me-are-top-row .coll .title_col {
+  width: 229px;
+  height: 52px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.me-are-top-row .coll .subtitle {
+  margin: 0 0 12px;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.me-are-top-row .coll .img {
+  text-align: center;
+}
+
+.me-are-top-row .container_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teacher {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.teacher .img img {
+  width: 430px;
+  height: 450px;
+}
+
+.teacher .img {
+  margin-bottom: 60px;
+}
+
+.teacher .abouet_teacher h3 {
+  margin: 27px 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+
+.teacher .abouet_teacher {
+  margin-left: 29px;
+}
+
+.teacher .abouet_teacher h4 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+
+.teacher .abouet_teacher ul.long_list {
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  overflow: hidden;
+}
+
+.teacher .abouet_teacher ul {
+  margin: 0;
+  padding: 0;
+}
+
+.teacher .abouet_teacher ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+::ng-deep .carousel-indicators {
+  bottom: -15px;
+}
+
+.teacher .abouet_teacher ul li:nth-child(1n + 2) {
+  margin-top: 36px;
+}
+
+.teacher .abouet_teacher ul li span {
+  display: inline-block;
+  margin-left: 27px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+
+.teacher .abouet_teacher ul li span .see_more {
+  display: inline-block;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #06295E;
+  margin: 0;
+  cursor: pointer;
+}
+
+.teachers ::ng-deep .carousel-indicators button:nth-child(2) {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.teachers ::ng-deep .carousel-indicators button {
+  background: #D0CCD4;
+  border-radius: 4px;
+  width: 24px;
+  height: 6px;
+}
+
+.teachers ::ng-deep .carousel-indicators button.active {
+  background: #716F72;
+}
+
+.students .student {
+  width: 80%;
+  height: 466px;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 182px 55px 58px;
+}
+
+c-carousel-item {
+  width: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 30px;
+}
+
+.students .student .about_student p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  color: #4F4F4F;
+  width: 605px;
+}
+
+.students .student .img h3 {
+  margin: 43px 0 0 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.students ::ng-deep .carousel-inner {
+  margin-left: 145px;
+  overflow: visible;
+}
+
+.students ::ng-deep .carousel-control-next-icon {
+  background: url("src/assets/image/next.png") no-repeat;
+  background-size: contain;
+}
+
+.students ::ng-deep .carousel-control-next {
+  justify-content: flex-end;
+}
+
+.students ::ng-deep .carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.students ::ng-deep .carousel-control-prev-icon {
+  background: url("src/assets/image/prev.png") no-repeat;
+  background-size: contain;
+}
+
+.students {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1481px) {
+  .container_ {
+    width: 1200px;
+    overflow-x: hidden;
+  }
+
+  .me-are-top-row .coll {
+    width: 350px;
+  }
+
+  .students .carousel-control-prev {
+    margin-left: 67px;
+  }
+
+  .students .carousel-control-next {
+    justify-content: flex-end;
+    margin-right: 67px;
+  }
+
+  .teacher .abouet_teacher ul li:nth-child(1n + 2) {
+    margin-top: 11px;
+  }
+
+  .students .student {
+    width: 80%;
+    height: 466px;
+    padding: 55px 51px 55px 58px;
+  }
+
+  .about-us .text p {
+    width: 503px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .students .student {
+    width: 80%;
+    height: 466px;
+    padding: 55px 19px 55px 58px;
+  }
+
+  .students .carousel-control-prev {
+    margin-left: 93px;
+  }
+
+}
+
+@media screen and (max-width: 1281px) {
+  .container_ {
+    width: 1000px;
+  }
+
+  .students .carousel-control-prev {
+    margin-left: 87px;
+  }
+
+  .students .carousel-control-next {
+    margin-right: 47px;
+  }
+
+  .me-are-top-row .container_ {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .me-are-top-row .coll:last-child {
+    margin-top: 25px;
+  }
+
+  .about-us .container_ {
+    flex-wrap: wrap;
+  }
+
+  .about-us .container_ .img_block {
+    margin-top: 25px;
+  }
+
+  .about-us .text p {
+    width: 100%;
+  }
+
+  .students .student .about_student p {
+    width: 524px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .students .carousel-control-next {
+    margin-right: 9px;
+  }
+
+  .students .carousel-control-prev {
+    margin-left: 15px;
+  }
+
+  .students .student .about_student p {
+    width: 376px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .container_ {
+    width: 800px;
+  }
+
+  .teacher .abouet_teacher ul li span {
+    margin-left: 5px;
+    font-size: 15px;
+    line-height: 36px;
+    letter-spacing: 1px;
+  }
+
+  .teacher .abouet_teacher ul li span .see_more {
+    font-size: 15px;
+  }
+
+  .teacher .img img {
+    width: 346px;
+  }
+
+  .students .student {
+    margin-left: -64px;
+  }
+
+  .students .student .about_student p {
+    width: 301px;
+    height: 363px;
+  }
+
+  .students .student .about_student p {
+    margin: 0;
+    padding: 0 15px 0 0;
+  }
+}
+
+@media screen and (max-width: 851px) {
+  .container_ {
+    width: 90%;
+  }
+
+  .students .student .img img {
+    width: 200px;
+  }
+
+  .me-are-top-row .coll {
+    width: 270px;
+  }
+
+  .me-are-top-row .coll .img img {
+    max-width: 224px;
+    max-height: 269px;
+  }
+
+  .students .student .img h3 {
+    margin: 23px 0 0 0;
+    font-size: 19px;
+    line-height: 19px;
+  }
+
+  .students .student {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .students .student .about_student p {
+    width: 246px;
+    height: 245px;
+  }
+
+  .teacher .abouet_teacher ul li:nth-child(1) {
+    display: none;
+  }
+
+  .teacher .abouet_teacher ul li:nth-child(2) {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .students .student {
+    margin-left: -90px;
+  }
+
+  .teacher .abouet_teacher ul.long_list {
+    margin: 0 0 12px;
+    padding: 0;
+    height: 256px;
+  }
+
+  .teacher {
+    flex-wrap: wrap;
+  }
+
+  .teacher .abouet_teacher ul {
+    margin: 0 0 20px 0;
+  }
+
+  .teacher .img img {
+    width: 430px;
+  }
+
+  .about-us .container_ .img_block {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-us .container_ .img_block img:first-child {
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+
+  .about-us .container_ .img_block img {
+    width: 100%;
+    max-height: 470px;
+  }
+
+  .students .student {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    height: 500px;
+    padding: 0 14px 77px 58px;
+  }
+
+  .students .student .img {
+    margin: 25px 0 25px;
+  }
+
+  .students .student .about_student p {
+    width: 100%;
+  }
+  .teacher .abouet_teacher ul li span {
+    margin-left: 8px;
+  }
+  .students .carousel-control-prev {
+    margin-left: 2px;
+  }
+  .students .carousel-control-next {
+    margin-right: 9px;
+  }
+
+}
+
+@media screen and (max-width: 510px){
+  .students .student {
+    margin-left: -107px;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .students .carousel-control-next {
+    margin-right: -11px;
+  }
+  .students .student {
+    padding: 0 14px 77px 11px;
+  }
+  .students .student {
+    margin-left: -115px;
+  }
+}

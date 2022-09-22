@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+*{
+  box-sizing: border-box;
+}
+button{
+  border: none;
+}
+ul li{
+  list-style-type: none;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+html{
+  overflow-x: hidden;
+}

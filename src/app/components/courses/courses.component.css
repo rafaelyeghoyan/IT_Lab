@@ -1,0 +1,581 @@
+app-header {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.container_ {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.courses_header .container_ .text h2 {
+  margin: 0 0 0 0;
+  padding: 140px 0 127px 0;
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #06295E;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.courses_header {
+  padding-top: 60px;
+  background-image: url("../../../assets/image/back2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+.curses_list_block .row_sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.curses_list_block .row_sort button img {
+  display: inline-block;
+  padding-left: 13px;
+}
+
+.curses_list_block .row_sort button {
+  display: block;
+  position: relative;
+}
+
+.curses_list_block .row_sort button, .curses_list_block .row_sort p {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #101010;
+}
+
+.curses_list_block ::ng-deep .mat-tab-label {
+  min-width: 0 !important;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #06295E;
+  opacity: 1 !important;
+}
+
+.curses_list_block ::ng-deep .mat-tab-labels {
+  display: flex;
+  justify-content: flex-end;
+  opacity: 1 !important;
+  padding-top: 24px;
+}
+
+.curses_list_block ::ng-deep .mat-tab-label-active {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #42975B;
+}
+
+.curses_list_block ::ng-deep .mat-ripple-element {
+  display: none !important;
+}
+
+.course_col {
+  max-width: 304px;
+  max-height: 460px;
+  background: #FFFFFF;
+  border: 1px solid #06295E;
+  border-radius: 0 20px;
+  margin-top: 25px;
+  padding: 15px 6px 5px 7px;
+}
+
+.course_col .img {
+  border: 1px solid black;
+  border-radius: 0 20px;
+  text-align: center;
+}
+
+.course_col .text ul {
+  padding: 14px 0 0 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.course_col .text ul li {
+  list-style-type: none;
+}
+
+.course_col .text ul li:nth-child(1) {
+  padding-right: 33px;
+}
+
+.course_col .text ul li span {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.course_col .text ul li:nth-child(1) img {
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.course_col .text ul li:nth-child(2) img {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.course_col .text .price {
+  margin: 10px 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #42975B;
+}
+
+.course_col .text .course_name {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #06295E;
+}
+
+.course_col .text .about_course {
+  margin: 10px 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #101010;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.course_col .text .learn_more {
+  display: block;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #42975B;
+  border: 1px solid #42975B;
+  border-radius: 0 20px;
+  padding: 15px 14px;
+  background: none;
+}
+
+.course_col .text .button_learn_block {
+  display: flex;
+  justify-content: center;
+}
+
+::ng-deep .mat-tab-body-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+::ng-deep .modal-content {
+  position: absolute;
+  width: 1200px;
+  margin: 0 auto;
+  outline: 0;
+  right: -380px;
+}
+
+.modal-header, .modal-footer {
+  border: none !important;
+}
+
+.modal-title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+  width: 100%;
+}
+
+.demo-inline-calendar-card {
+  width: 300px;
+}
+
+::ng-deep .mat-button {
+  background: #F8F8F8 !important;
+  border-radius: 8px !important;
+}
+
+::ng-deep .mat-icon-button {
+  background: #F8F8F8 !important;
+  border-radius: 8px !important;
+}
+
+::ng-deep button[aria-label="Previous month"] {
+  margin-right: 2px;
+}
+
+::ng-deep .mat-ink-bar, ::ng-deep .mat-calendar-arrow {
+  display: none !important;
+}
+
+::ng-deep mat-tab-header {
+  border: none !important;
+}
+
+::ng-deep .mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: none;
+}
+
+.caledar .buttons .clear {
+  display: inline-block;
+  padding: 1px 14px;
+  background: #F8F8F8;
+  border-radius: 9px;
+  width: 59px;
+  height: 28px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #8A8A8A;
+}
+
+.caledar .buttons .apply {
+  background: #06295E;
+  border-radius: 9px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  width: 61px;
+  height: 28px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-left: 6px;
+  color: #FFFFFF;
+}
+
+.caledar {
+  width: 300px;
+  height: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.caledar .buttons {
+  width: 90%;
+  padding-top: 12px;
+  border-top: 0.5px solid #BEBEBE;
+  text-align: right;
+}
+
+.messige h4 {
+  margin: 0 0 9px 0;
+  padding: 0 0 0 9px;
+  font-family: 'Segoe UI';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.messige .texts {
+  background: #DEDEDE;
+  border-radius: 12px;
+  width: 756px;
+  height: 202px;
+  padding: 27px 40px 87px 52px;
+}
+
+.messige .texts p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.messige .texts p:first-child {
+  margin-bottom: 22px;
+}
+
+.modal-body form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.coming_title {
+  margin: 100px 0 50px;
+  padding: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #101010;
+}
+
+.coming_courses {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+::ng-deep .mat-menu-panel {
+  max-width: 100% !important;
+  width: 310px;
+  height: 170px;
+}
+
+.mat-menu-item {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  color: #000000;
+}
+
+@media screen and (max-width: 1480px) {
+  .container_ {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .modal-content {
+    width: 1100px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container_ {
+    width: 1000px;
+  }
+
+  ::ng-deep .modal-content {
+    width: 1070px;
+    right: -285px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container_ {
+    width: 800px;
+  }
+
+  ::ng-deep .modal-content {
+    width: 960px;
+    right: -253px;
+  }
+
+  ::ng-deep .modal-body form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .caledar {
+    margin-top: 21px;
+  }
+}
+
+@media screen and (max-width: 1054px) {
+  ::ng-deep .modal-content {
+    width: 780px;
+    right: -150px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .container_ {
+    width: 90%;
+  }
+
+  ::ng-deep .modal-content {
+    width: 780px;
+    right: -150px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .messige .texts {
+    background: #DEDEDE;
+    border-radius: 12px;
+    width: 352px;
+    height: 202px;
+    padding: 19px 10px 15px 17px;
+  }
+
+  .modal-body form {
+    flex-direction: column;
+  }
+
+  ::ng-deep .modal-content {
+    width: 470px;
+    right: 0;
+  }
+
+  .course_col {
+    max-width: 260px;
+  }
+
+  ::ng-deep .mat-tab-body-content {
+    justify-content: space-evenly;
+  }
+
+  .course_col[_ngcontent-ntx-c414] {
+    max-width: 304px;
+    max-height: 100%;
+  }
+
+  .course_col {
+    max-width: 256px;
+  }
+
+}
+
+@media screen and (max-width: 573px) {
+  ::ng-deep .mat-tab-body-content {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coming_courses {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  ::ng-deep .modal-content {
+    width: 350px;
+    right: 71px;
+  }
+
+  .messige .texts p {
+    font-size: 10px;
+  }
+
+  .messige .texts {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  ::ng-deep .modal-content {
+    right: 51px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  ::ng-deep .modal-content {
+    right: 41px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  ::ng-deep .modal-content {
+    right: 21px;
+  }
+  .curses_list_block .row_sort button, .curses_list_block .row_sort p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  ::ng-deep .modal-content {
+    right: 10px;
+  }
+  ::ng-deep .mat-menu-panel {
+    width: 260px;
+    height: 170px;
+  }
+  .mat-menu-item {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+}
+@media screen and (max-width: 380px) {
+  ::ng-deep .modal-content {
+    right: 0;
+  }
+ ::ng-deep .modal-content {
+    width: 280px;
+  }
+  .demo-inline-calendar-card {
+    width: 230px;
+  }
+  .caledar {
+    align-items: flex-start;
+  }
+  .caledar .buttons {
+    width: 80%;
+  }
+  .messige .texts {
+    width: 270px;
+    margin-left: -55px;
+  }
+}
