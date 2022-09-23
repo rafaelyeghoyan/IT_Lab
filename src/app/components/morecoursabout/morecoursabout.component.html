@@ -4,6 +4,27 @@
       <a routerLink=""><img src="assets/image/logo2.png" alt="No images"></a>
     </div>
     <div class="menu">
+      <ul  class="big_menu">
+        <li>
+          <a routerLink="/home">Գլխավոր</a>
+        </li>
+        <li>
+          <a routerLink="/about-us">Մեր մասին</a>
+        </li>
+        <li>
+          <a routerLink="/courses">Դասընթացներ</a>
+        </li>
+        <li>
+          <a href="#contact">Կապ</a>
+        </li>
+      </ul>
+      <button type="button" routerLink="/sign-in" class="signUp big_menu">Գրանցվել</button>
+      <img src="assets/image/menu.png" alt="No images" class="dropdown_menu"
+           (mouseleave)="closeDropDown()" (click)="openDropDown()">
+    </div>
+  </div>
+  <div class="dropdown" (mouseenter)="openDropDown()" (mouseleave)="closeDropDown()">
+    <div class="menu">
       <ul>
         <li>
           <a routerLink="/home">Գլխավոր</a>
