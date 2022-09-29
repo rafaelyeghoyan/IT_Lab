@@ -1,73 +1,6 @@
-header .menu ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  width: 600px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header .menu ul li {
-  list-style-type: none;
-}
-
-header .menu ul li a {
-  display: inline-block;
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 1px;
-  color: #FCFCFC;
-  padding-bottom: 8px;
-}
-
-header button.signUp {
-  display: inline-block;
-  background: #42975B;
-  border-radius: 0 20px;
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 1px;
-  color: #FCFCFC;
-  padding: 14px 28px 16px 27px;
-  border: none;
-  margin-left: 61px;
-}
-
-header .main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 1400px;
-  margin: 0 auto;
-  background: rgba(0, 0, 0, 0);
-}
-
-header .menu {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-header {
-  background-color: #06295E;
-  padding: 22px 0 34px;
-}
-
-.active {
-  border: none;
-}
-
 .container_ {
   width: 1400px;
-  margin: 0 auto;
+  margin: 150px auto 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -172,31 +105,28 @@ header {
   align-items: center;
 }
 
-.dropdown{
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  position: fixed;
-  z-index: 55;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background-color: #FFFFFF;
-  transition: height 0.8s;
-}
+/*.dropdown{*/
+/*  width: 0;*/
+/*  height: 0;*/
+/*  overflow: hidden;*/
+/*  position: fixed;*/
+/*  z-index: 55;*/
+/*  top: 0;*/
+/*  bottom: 0;*/
+/*  right: 0;*/
+/*  background-color: #FFFFFF;*/
+/*  transition: height 0.8s;*/
+/*}*/
 
-.dropdown_menu{
-  display: none;
-}
+/*.dropdown_menu{*/
+/*  display: none;*/
+/*}*/
 
 @media screen and (max-height: 1400px) {
   .container_ {
     width: 1200px;
   }
 
-  header .main {
-    width: 1200px;
-  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -204,10 +134,6 @@ header {
     width: 1000px;
     padding-top: 25px;
     padding-bottom: 25px;
-  }
-
-  header .main {
-    width: 1000px;
   }
 
   .container_ .img img {
@@ -221,24 +147,6 @@ header {
     align-items: stretch;
   }
 
-  header .main {
-    width: 800px;
-  }
-
-  header button.signUp {
-    margin-left: 39px;
-  }
-
-  header .menu ul {
-    width: 416px;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  header .menu ul li a {
-    font-size: 15px;
-  }
-
   .container_ .img img {
     width: 390px;
   }
@@ -246,10 +154,6 @@ header {
 
 @media screen and (max-width: 880px) {
   .container_ {
-    width: 95%;
-  }
-
-  header .main {
     width: 95%;
   }
 }
@@ -270,28 +174,6 @@ header {
   }
   .container_ .img img {
     width: 70%;
-  }
-  .dropdown_menu{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-  }
-  header .menu ul.big_menu , .menu .big_menu{
-    display: none;
-  }
-  header .menu ul {
-    padding: 0;
-    margin: 50px 0 0;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  header .menu ul li a {
-    color: #06295e;
-  }
-  header .menu ul li:nth-child(1n + 2){
-    margin-top: 25px;
   }
 }
 

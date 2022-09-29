@@ -1,11 +1,3 @@
-app-header {
-  position: absolute;
-  top: 29px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
 .container_ {
   width: 1400px;
   margin: 0 auto;
@@ -27,7 +19,7 @@ app-header {
 
 .advantages_header {
   padding-top: 60px;
-  background-image: url("../../../assets/image/back4.png");
+  background-image: url("../../../assets/images/back4.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 85px;

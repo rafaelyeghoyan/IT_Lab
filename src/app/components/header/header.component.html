@@ -1,17 +1,15 @@
-<div class="main">
+<div [ngClass]="{'no-background ': style == '' , 'blue' : style == 'blue'}"  class="main">
+  <div class="container_">
   <div class="logo">
-    <a routerLink="/home"><img src="assets/image/Logo.png" alt="No images"></a>
+    <a routerLink="/home">
+      <img *ngIf="style == ''" src="../../../assets/images/Logo.png" alt="No images">
+      <img *ngIf="style == 'blue'" src="../../../assets/images/logo2.png" alt="No images">
+    </a>
   </div>
   <div class="menu">
     <ul class="big_menu">
-      <li>
-        <a routerLink="/home" routerLinkActive="active">Գլխավոր</a>
-      </li>
-      <li>
-        <a routerLink="/about-us" routerLinkActive="active">Մեր մասին</a>
-      </li>
-      <li>
-        <a routerLink="/courses" routerLinkActive="active"> Դասընթացներ</a>
+      <li *ngFor="let item of menuList">
+        <a routerLink="{{item.rout}}" routerLinkActive="active">{{item.title}}</a>
       </li>
       <li>
         <a href="#contact">Կապ</a>
@@ -19,23 +17,18 @@
     </ul>
     <button type="button" class="signUp" routerLink="/sign-in">Գրանցվել</button>
   </div>
-  <img src="assets/image/menu.png" alt="No images" class="dropdown_menu" (mouseleave)="closeDropDown()" (mouseenter)="openDropDown()">
+  <img (click)="$event.stopPropagation()" src="../../../assets/images/menu.png" alt="No images" class="dropdown_menu" (click)="openDropDown()">
+  </div>
 </div>
 
-<div class="dropdown" (mouseenter)="openDropDown()" (mouseleave)="closeDropDown()">
+<div (clickOutside)="onClickedOutside()" [ngClass]="{'menu-dropdown-open': menuIsOpening , 'dropdown':!menuIsOpening}">
   <ul>
-    <li>
-      <a routerLink="/home" (click)="closeDropDown()" routerLinkActive="active">Գլխավոր</a>
+    <li *ngFor="let item of menuList">
+      <a (click)="openDropDown()" routerLink="{{item.rout}}" routerLinkActive="active">{{item.title}}</a>
     </li>
     <li>
-      <a routerLink="/about-us" (click)="closeDropDown()" routerLinkActive="active">Մեր մասին</a>
-    </li>
-    <li>
-      <a routerLink="/courses" (click)="closeDropDown()" routerLinkActive="active"> Դասընթացներ</a>
-    </li>
-    <li>
-      <a href="#contact" (click)="closeDropDown()">Կապ</a>
+      <a href="#contact">Կապ</a>
     </li>
   </ul>
-  <button type="button" class="drop_sign-up" routerLink="/sign-in" (click)="closeDropDown()">Գրանցվել</button>
+  <button (click)="openDropDown()" type="button" class="drop_sign-up" routerLink="/sign-in">Գրանցվել</button>
 </div>

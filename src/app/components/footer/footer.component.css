@@ -45,20 +45,20 @@ ul {
 }
 
 .first li a.fb {
-  background-image: url("src/assets/image/jam_facebook.png");
+  background-image: url("../../../assets/images/jam_facebook.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .first li a.twitter {
-  background-image: url("src/assets/image/akar-icons_twitter-fill.png");
+  background-image: url("../../../assets/images/akar-icons_twitter-fill.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 37px 0 31px;
 }
 
 .first li a.in {
-  background-image: url("src/assets/image/cib_linkedin-in.png");
+  background-image: url("../../../assets/images/cib_linkedin-in.png");
   background-size: contain;
   background-repeat: no-repeat;
 }

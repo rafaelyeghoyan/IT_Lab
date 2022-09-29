@@ -36,6 +36,7 @@ import { MorecoursaboutComponent } from './components/morecoursabout/morecoursab
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import {CarouselModule} from "@coreui/angular";
 import { AdvantagesComponent } from './components/advantages/advantages.component';
+import {ClickOutsideModule} from "ng-click-outside";
 
 @NgModule({
   declarations: [
@@ -88,6 +89,7 @@ import { AdvantagesComponent } from './components/advantages/advantages.componen
     AppRoutingModule,
     MatTabsModule,
     CarouselModule,
+    ClickOutsideModule
   ],
   providers: [],
   bootstrap: [AppComponent]

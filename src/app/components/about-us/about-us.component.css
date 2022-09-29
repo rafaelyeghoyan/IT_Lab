@@ -1,11 +1,3 @@
-app-header {
-  position: absolute;
-  top: 29px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-}
-
 .container_ {
   width: 1400px;
   margin: 0 auto;
@@ -26,8 +18,8 @@ app-header {
 }
 
 .about-us-header {
-  padding-top: 60px;
-  background-image: url("../../../assets/image/back3.png");
+  padding-top: 100px;
+  background-image: url("../../../assets/images/back3.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -163,6 +155,10 @@ h2 {
   height: 350px;
   overflow: hidden;
 }
+.teacher .abouet_teacher ul.seeMore {
+  overflow: auto;
+  height: 350px;
+}
 
 .teacher .abouet_teacher ul {
   margin: 0;
@@ -278,7 +274,7 @@ c-carousel-item {
 }
 
 .students ::ng-deep .carousel-control-next-icon {
-  background: url("src/assets/image/next.png") no-repeat;
+  background: url("../../../assets/images/next.png") no-repeat;
   background-size: contain;
 }
 
@@ -291,12 +287,14 @@ c-carousel-item {
 }
 
 .students ::ng-deep .carousel-control-prev-icon {
-  background: url("src/assets/image/prev.png") no-repeat;
+  background: url("../../../assets/images/prev.png") no-repeat;
   background-size: contain;
 }
 
 .students {
   margin-bottom: 100px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1481px) {
@@ -308,7 +306,9 @@ c-carousel-item {
   .me-are-top-row .coll {
     width: 350px;
   }
-
+  .me-are-top-row .coll:nth-child(2){
+    margin: 25px 0;
+  }
   .students .carousel-control-prev {
     margin-left: 67px;
   }
@@ -363,10 +363,6 @@ c-carousel-item {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-  }
-
-  .me-are-top-row .coll:last-child {
-    margin-top: 25px;
   }
 
   .about-us .container_ {
@@ -429,6 +425,7 @@ c-carousel-item {
   .students .student .about_student p {
     width: 301px;
     height: 363px;
+    overflow: auto;
   }
 
   .students .student .about_student p {
@@ -468,7 +465,7 @@ c-carousel-item {
 
   .students .student .about_student p {
     width: 246px;
-    height: 245px;
+    height: 188px;
   }
 
   .teacher .abouet_teacher ul li:nth-child(1) {
@@ -525,7 +522,6 @@ c-carousel-item {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    overflow: auto;
     height: 500px;
     padding: 0 14px 77px 58px;
   }

@@ -9,8 +9,6 @@ export class AdvantagesComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    window.scrollTo(0,0)
-  }
+  ngOnInit(): void {}
 
 }
