@@ -19,7 +19,7 @@
 
 .home_header {
   padding-top: 133px;
-  background-image: url("../../../assets/images/back1.png");
+  background-image: url("../../../assets/img/back1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -387,13 +387,13 @@
 .start_lesson {
   padding-top: 31px;
   padding-bottom: 55px;
-  background-image: url("../../../assets/images/25372 abstract-01 1.png");
+  background-image: url("../../../assets/img/25372 abstract-01 1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .start_lesson .form_subsribe_block .title_block {
-  background-image: url("../../../assets/images/Vector 19.png");
+  background-image: url("../../../assets/img/Vector 19.png");
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 421px;
@@ -525,14 +525,14 @@ h2.lesson_create_title {
 .lesson_create {
   padding-top: 21px;
   padding-bottom: 32px;
-  background-image: url("../../../assets/images/Frame 371.png");
+  background-image: url("../../../assets/img/Frame 371.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 100px;
 }
 
 .reviews {
-  background-image: url("../../../assets/images/Group.png");
+  background-image: url("../../../assets/img/Group.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 496px;
@@ -647,7 +647,7 @@ h2.lesson_create_title {
 }
 
 ::ng-deep .accordion-button[aria-expanded="false"]::after {
-  background-image: url("../../../assets/images/pluspng.png") !important;
+  background-image: url("../../../assets/img/pluspng.png") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   position: absolute !important;
@@ -656,7 +656,7 @@ h2.lesson_create_title {
 }
 
 ::ng-deep .accordion-button[aria-expanded="true"]::after {
-  background-image: url("../../../assets/images/minuse.png") !important;
+  background-image: url("../../../assets/img/minuse.png") !important;
   background-repeat: no-repeat !important;
   background-size: contain !important;
   position: absolute;
@@ -802,7 +802,7 @@ h2.lesson_create_title {
 
 .connect_with_us .contact ul li span a.fb {
   display: inline-block;
-  background-image: url("../../../assets/images/fb.png");
+  background-image: url("../../../assets/img/fb.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 24px;
@@ -811,7 +811,7 @@ h2.lesson_create_title {
 
 .connect_with_us .contact ul li span a.twitter {
   display: inline-block;
-  background-image: url("../../../assets/images/twitter.png");
+  background-image: url("../../../assets/img/twitter.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 24px;
@@ -821,7 +821,7 @@ h2.lesson_create_title {
 
 .connect_with_us .contact ul li span a.in {
   display: inline-block;
-  background-image: url("../../../assets/images/in.png");
+  background-image: url("../../../assets/img/in.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 24px;

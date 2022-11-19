@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   modalRef?: BsModalRef;
   form = this.fb.group({
     email:['',Validators.required],
-    name:['',Validators.required],
+    name:['',[Validators.required, Validators.email]],
     tel:['',[Validators.required]],
     desc:['',Validators.required]
   });
@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
   courses:coursesType[] = [
     {
       id:1,
-      image:'../../../assets/images/students-5ac817434431c4%201.png',
+      image:'../../../assets/img/students-5ac817434431c4%201.png',
       "lesson_number": '30 դաս',
       "start_date":'20․05․2022',
       price: '30.000 AMD',
@@ -40,7 +40,7 @@ export class HomeComponent implements OnInit {
     },
     {
       id:2,
-      image:'../../../assets/images/student-2.png',
+      image:'../../../assets/img/student-2.png',
       "lesson_number": '30 դաս',
       "start_date":'20․05․2022',
       price: '30.000 AMD',
@@ -49,7 +49,7 @@ export class HomeComponent implements OnInit {
     },
     {
       id:3,
-      image:'../../../assets/images/student-3.png',
+      image:'../../../assets/img/student-3.png',
       "lesson_number": '30 դաս',
       "start_date":'20․05․2022',
       price: '30.000 AMD',
@@ -58,7 +58,7 @@ export class HomeComponent implements OnInit {
     },
     {
       id:4,
-      image:'../../../assets/images/student-4.png',
+      image:'../../../assets/img/student-4.png',
       "lesson_number": '30 դաս',
       "start_date":'20․05․2022',
       price: '30.000 AMD',
@@ -80,4 +80,8 @@ export class HomeComponent implements OnInit {
     }
   }
 
+  submit() {
+    console.log(this.form.getRawValue());
+    this.modalRef?.hide()
+  }
 }

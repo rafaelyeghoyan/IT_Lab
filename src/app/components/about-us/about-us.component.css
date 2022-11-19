@@ -19,7 +19,7 @@
 
 .about-us-header {
   padding-top: 100px;
-  background-image: url("../../../assets/images/back3.png");
+  background-image: url("../../../assets/img/back3.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -274,7 +274,7 @@ c-carousel-item {
 }
 
 .students ::ng-deep .carousel-control-next-icon {
-  background: url("../../../assets/images/next.png") no-repeat;
+  background: url("../../../assets/img/next.png") no-repeat;
   background-size: contain;
 }
 
@@ -287,7 +287,7 @@ c-carousel-item {
 }
 
 .students ::ng-deep .carousel-control-prev-icon {
-  background: url("../../../assets/images/prev.png") no-repeat;
+  background: url("../../../assets/img/prev.png") no-repeat;
   background-size: contain;
 }
 

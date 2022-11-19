@@ -2,8 +2,8 @@
   <div class="container_">
   <div class="logo">
     <a routerLink="/home">
-      <img *ngIf="style == ''" src="../../../assets/images/Logo.png" alt="No images">
-      <img *ngIf="style == 'blue'" src="../../../assets/images/logo2.png" alt="No images">
+      <img *ngIf="style == ''" src="../../../assets/img/Logo.png" alt="No images">
+      <img *ngIf="style == 'blue'" src="../../../assets/img/logo2.png" alt="No images">
     </a>
   </div>
   <div class="menu">
@@ -17,7 +17,7 @@
     </ul>
     <button type="button" class="signUp" routerLink="/sign-in">Գրանցվել</button>
   </div>
-  <img (click)="$event.stopPropagation()" src="../../../assets/images/menu.png" alt="No images" class="dropdown_menu" (click)="openDropDown()">
+  <img (click)="$event.stopPropagation()" src="../../../assets/img/menu.png" alt="No images" class="dropdown_menu" (click)="openDropDown()">
   </div>
 </div>
 

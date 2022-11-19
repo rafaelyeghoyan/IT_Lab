@@ -2,24 +2,32 @@
   width: 1400px;
   margin: 0 auto;
 }
+//.advantages_header .container_ .text h1
 
-.advantages_header .container_ .text h1 {
-  margin: 0 0 0 0;
-  padding: 140px 0 127px 0;
-  text-align: center;
-  font-family: 'Segoe UI';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 26px;
-  letter-spacing: 1px;
-  color: #06295E;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+.advantages_header {
+  .container_ {
+    .text {
+      h1 {
+        margin: 0 0 0 0;
+        padding: 140px 0 127px 0;
+        text-align: center;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        color: #06295E;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
 }
+
 
 .advantages_header {
   padding-top: 60px;
-  background-image: url("../../../assets/images/back4.png");
+  background-image: url("../../../assets/img/back4.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 85px;
@@ -296,13 +304,13 @@ h2 {
   }
 }
 
-@media screen and (max-width: 550px){
-  .testing_info .container_ .img img{
+@media screen and (max-width: 550px) {
+  .testing_info .container_ .img img {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
   .gallery .container_ {
     justify-content: center;
     align-items: center;

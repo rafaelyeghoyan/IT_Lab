@@ -26,8 +26,8 @@
       </p>
     </div>
     <div class="img_block">
-      <img src="../../../assets/images/Rectangle%20328.png" alt="No image">
-      <img src="../../../assets/images/Rectangle%20327.png" alt="No image">
+      <img src="../../../assets/img/Rectangle%20328.png" alt="No image">
+      <img src="../../../assets/img/Rectangle%20327.png" alt="No image">
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@
       <p class="subtitle">Մեր դասընթացը ապահովում է հարմարավետություն ուսուցման մեջ։</p>
       <div class="img">
         <img
-          src="../../../assets/images/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651%202.png"
+          src="../../../assets/img/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651%202.png"
           alt="No images">
       </div>
     </div>
@@ -49,7 +49,7 @@
       <h3 class="title_col">Առաջնորդի փորձաքննություն</h3>
       <p class="subtitle">Մեր դասընթացների շնորհիվ դուք ձեռք կբերեք առաջնորդին բնորոշ մտածողություն։ </p>
       <div class="img">
-        <img src="../../../assets/images/kisspng-sat.png"
+        <img src="../../../assets/img/kisspng-sat.png"
              alt="No images">
       </div>
     </div>
@@ -57,7 +57,7 @@
       <h3 class="title_col">Հուսալիություն և որակ</h3>
       <p class="subtitle">Մեր դասընթացը ապահովում է հարմարավետություն ուսուցման մեջ։</p>
       <div class="img">
-        <img src="../../../assets/images/kisspng.png"
+        <img src="../../../assets/img/kisspng.png"
              alt="No images">
       </div>
     </div>
@@ -72,7 +72,7 @@
       <c-carousel-indicators></c-carousel-indicators>
       <c-carousel-inner>
         <c-carousel-item>
-          <div class="teacher" *ngFor="let item of teachersInfo[0]">
+          <div class="teacher" *ngFor="let item of teachersInfo[0]; let idx = index">
             <div class="img">
               <img src="{{item.img}}" alt="No images">
             </div>
@@ -103,20 +103,20 @@
                     <span *ngIf="moreButton " class="see_more" (click)="seeMore(true,false)">{{list.see_more}}</span></span>
                 </li>
                 <li *ngIf="seemore">
-                  <img src="../../../assets/images/circle-check.png" alt="No images">
+                  <img src="../../../assets/img/circle-check.png" alt="No images">
                   <span>Շիրակի պետական համալսարանի բնագիտության և մաթեմատիկական ֆակուլտետի խորհրդի անդամ է
                 </span>
                 </li>
                 <li *ngIf="seemore">
-                  <img src="../../../assets/images/circle-check.png" alt="No images">
+                  <img src="../../../assets/img/circle-check.png" alt="No images">
                   <span>Շիրակի պետական մարզային քոլեջի ՏՏ բաժնի քննական հանձնաժողովի նախագահն է</span>
                 </li>
                 <li *ngIf="seemore">
-                  <img src="../../../assets/images/circle-check.png" alt="No images">
+                  <img src="../../../assets/img/circle-check.png" alt="No images">
                   <span>Նա երկակի կրթական ծրագրի շրջանակներում «ՏՏ բիզնեսի համար, ՏՏ հանուն կրթության» նախագծի հեղինակ է</span>
                 </li>
                 <li *ngIf="seemore">
-                  <img src="../../../assets/images/circle-check.png" alt="No images">
+                  <img src="../../../assets/img/circle-check.png" alt="No images">
                   <span>Brain Fors ծրագրային ապահովման ընկերության հիմնադիր:</span>
                 </li>
               </ul>
@@ -154,7 +154,7 @@
       <c-carousel-item>
         <div class="student">
           <div class="img">
-            <img src="../../../assets/images/Rectangle%20326.png" alt="No images">
+            <img src="../../../assets/img/Rectangle%20326.png" alt="No images">
             <h3>Մովսես մովսեսյան</h3>
           </div>
           <div class="about_student">
@@ -170,7 +170,7 @@
       <c-carousel-item>
         <div class="student">
           <div class="img">
-            <img src="../../../assets/images/Rectangle%20326.png" alt="No images">
+            <img src="../../../assets/img/Rectangle%20326.png" alt="No images">
             <h3>Մովսես մովսեսյան</h3>
           </div>
           <div class="about_student">
@@ -186,7 +186,7 @@
       <c-carousel-item>
         <div class="student">
           <div class="img">
-            <img src="../../../assets/images/Rectangle%20326.png" alt="No images">
+            <img src="../../../assets/img/Rectangle%20326.png" alt="No images">
             <h3>Մովսես մովսեսյան</h3>
           </div>
           <div class="about_student">
